@@ -1,0 +1,45 @@
+*{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+}
+.nav{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+}
+.nav ul{
+      display:flex;
+      gap:20px;
+      list-style:none;
+}
+.hero{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      height:60vh;
+}
+button{
+      padding:10px 20px;
+      margin-top:10px;
+      cursor:pointer;
+}
+body{
+      background:#fff8e7
+}
+.about{
+      text-align:center;
+      padding:50px;
+}
+.skills ul{
+      list-style:none;
+}
+section{
+      text-align:center;
+      padding:30px;
+}
+button{
+      padding:10px; 
+      border:2px;
+      border-radius:5px;
+}
